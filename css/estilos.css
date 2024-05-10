@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+
+}
+
+/*Cabezera de la pagina*/
+header {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(4, 208, 235);
+    background-image: url(/imagenes/laaa.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: contain;
+
+
+}
+
+/*Logo o Animacion que aparece en la barra de navegacion*/
+#logo {
+    width: 110px;
+    height: 115px;
+    margin-top: 0.5%;
+    padding-left: 1%;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px rgb(3, 146, 182);
+
+}
+/*Titulo que aparece en la parte de arriba de la pantalla*/
+
+#nombre {
+    position: absolute;
+    font-family: Monkey Pirates;
+    top: 50px;
+    left: 140px;
+    color: rgb(26, 26, 27);
+    font-size: x-large;
+    border: 5px 5px 5px solid black;
+    box-shadow: 5px 5px 5px rgb(14, 78, 107) ;
+}
+
+/*Barra de navegacion que contiene el menu desplegable y de mas cosas en la cabeza de la pagina*/
+.Barra {
+    position: absolute;
+    top: 10px;
+    text-align: right;
+    margin-left: 67%;
+    font-size: 25px;
+    font-family: Monkey Pirates;
+    color: rgb(225, 236, 252);
+}
+
+.niveles {
+    display: inline;
+
+
+}
+
+.niveles a {
+    color: rgb(255, 255, 255);
+    border: 5px 5px 5px solid black;
+    border-color: black;
+}
+
+/*Texto de la pagina en general*/
+
+p {
+    font-family: unset;
+    color: rgb(0, 0, 0);
+    top: 10%;
+    font-size: small;
+    width: fit-content;
+    text-align: justify;
+
+}
+
+/*parrafos de inicio*/
+.pe
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    top: 10%;
+    font-size: large;
+    width: fit-content;
+    text-align: center;  
+}
+
+#logo1:hover {
+    width: 150px;
+    height: 150px;
+    margin-top: 1%;
+    image-rendering: initial;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgb(44, 124, 138);
+}
+
+
+
+#ico {
+
+    color: aliceblue;
+}
+
+.ejemplos
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.ejemplos img
+{
+    width: 160px;
+    height: 160px;
+    border-radius:90px ;
+}
+.ejemplos:hover {
+    box-shadow: 5px 5px 5px rgb(44, 124, 138);
+    border-radius: 0%;
+
+
+}
+
+
+#titulo {
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1%;
+}
+
+.sub {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    margin: 1%;
+}
+
+.tup {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+/*Formulario*/
+
+.formu {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: aliceblue;
+
+
+   
+}
+
+.formu2 {
+    text-align: center;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.formu2-1
+{
+    color: black;
+}
+.boxtext{
+border: 2px rgb(78, 77, 77) solid;
+border-radius: 30px;
+font-size: large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 5px;
+border-style: outset;
+
+}
+.envio {
+    margin: 5px;
+    padding: auto;
+    font-size: large;
+    border: 2px black solid;
+    border-radius: 30px;
+ 
+}
+
+.contenedor6
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+
+}
+.bordef
+{
+    margin: 10px;
+    text-align: center;
+    border: 5px  rgb(151, 152, 153) solid;
+    border-radius: 90px;
+    background-image: url(../imagenes/ño.jfif);
+    background-size: cover;
+    
+   
+}
+
+/*pie de pagina*/
+
+.pie {
+    margin-top: 100%;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(87, 149, 241);
+    color: aliceblue;
+}
+
+/*/////////////cartas/////////////////*/
+
+.carta {
+    width: 230px;
+    position: relative;
+    height: 290px;
+    margin: 20px;
+  
+
+}
+
+.carta .cara {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    transition: .7s;
+    border-radius: 20px;
+
+}
+
+.carta .frontal {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+}
+
+.carta .frontal .ima {
+    position: absolute;
+    width: 230px;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.carta .frontal h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 45px;
+    color: rgb(3, 199, 29);
+    background-color: transparent;
+    text-align: center;
+
+
+}
+
+.carta .atras {
+    transform: perspective(600px) rotateY(180deg);
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px rgb(250, 250, 250);
+
+}
+
+.carta .atras .link {
+    border-top: solid 1px rgb(88, 88, 88);
+    height: 50px;
+    line-height: 50px;
+
+}
+
+.carta .atras .link a {
+    color: blue;
+}
+
+.carta .atras h3 {
+    font-size: 30px;
+    margin: 20px;
+    letter-spacing: 2px;
+    color: rgb(252, 251, 251);
+}
+
+.carta .atras .pe {
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+}
+
+.carta:hover .frontal {
+    transform: perspective(600px) rotateY(180deg);
+
+}
+
+.carta:hover .atras {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+
+/*contenedor de las cartas -- tarjetas*/
+.contenedor
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+/*Menu despegable*/
+.Barra
+{
+    max-width: 150px;
+    color: aliceblue;
+    font-size: medium ;
+}
+.ena
+{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-h
+{
+    top: 35px;
+    width: auto;
+    list-style: none;
+    display: flex ;
+    justify-content: space-between;
+    font-size: larger;
+}
+.menu-h li a
+{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+.menu-v > li > a
+{
+        display: block;
+      padding: 15px;
+      color: rgb(10, 10, 10);
+      text-decoration: none;
+      
+}
+
+.menu-v
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 130px;
+    background-color: rgb(190, 188, 188);
+    text-align: center;
+    color: black;
+  
+}
+ .menu-h li:hover .menu-v
+ {
+    display: block;
+ }
+ .menu-v li:hover
+ {
+    background-color: black;
+ }
+ .menu-v li a
+ {
+    display: block;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    
+ }
+ .menu-v li a:hover
+ {
+    display: block;
+    color: rgb(250, 247, 247);
+    text-decoration: none;
+    
+ }
+/*Contenedor de la barra de navegacion*/
+ .contenedor2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+   
+   
+}
+
+/*Contenedor de la barra de navegacion vertical*/
+.contenedor3
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-start;
+    align-items: flex-start;
+   
+}
+
+/*Sonidos*/
+.sonido
+{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.952);
+    box-shadow: 5px 5px 5px rgb(173, 172, 170);
+    border-radius: 10px;
+    text-align: center;
+}
+.contenedor4
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}   
+.repo
+{
+    width: 50px;
+    height: 50px;
+
+}
+.Barra2
+{
+    position: absolute;
+    top: 10px;
+    text-align: right;
+    margin-left: 67%;
+    font-size: 25px;
+    font-family: Monkey Pirates;
+    color: rgb(225, 236, 252);
+}
+.contenedor5
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-start;
+    align-items: flex-start;
+}

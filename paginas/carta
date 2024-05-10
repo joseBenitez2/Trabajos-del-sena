@@ -1,0 +1,33 @@
+    <div class="carta">
+        <div class="cara frontal">
+            <img class="ima" src="../imagenes/baldur.jpg" alt="">
+            <h3></h3>
+        </div>
+        <div class="cara atras">
+            <h3>Sinopsis</h3>
+            <p class="pe"></p>
+            <div class="link">
+                <a href=>Trailer</a>
+            </div>
+        </div>
+    </div>
+
+
+    <ul class="Barra"></ul>
+
+
+    <div class="contenedor2">
+        <ul class="Barra">
+            <ul class="menu-h">
+                <li>
+                    <img class="repo" src="../imagenes/video.png" alt="">                    <div class="contenedor3">
+                        <ul class="menu-v">
+                            <li>    <audio class="sonido" src="../sonidos/01_Preludio.mp3"  controls muted></audio></li>
+                            <li>   <audio class="sonido" src="../sonidos/1.06 Opening.mp3"  controls muted></audio></li>
+                            
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </ul>
+    </div>
