@@ -6,7 +6,18 @@
 
 
 }
-
+/*CUERPO PAGINA*/
+.cuerpo
+{
+    border: 15px black solid;
+}
+.cuerpo
+{
+        font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-style: outset;
+        background-color: rgb(200, 198, 198);
+}
 /*Cabezera de la pagina*/
 header {
     width: 100%;
@@ -90,6 +101,18 @@ p {
     width: fit-content;
     text-align: center;  
 }
+/*parrafos de las tarjetas*/
+.pes
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    top: 10%;
+    font-size: small;
+    width: fit-content;
+    text-align: center;
+ 
+}
+
 
 #logo1:hover {
     width: 150px;
@@ -174,7 +197,7 @@ p {
     color: black;
 }
 .boxtext{
-border: 2px rgb(78, 77, 77) solid;
+border: 2px rgb(3, 3, 3) solid;
 border-radius: 30px;
 font-size: large;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -206,7 +229,7 @@ border-style: outset;
 {
     margin: 10px;
     text-align: center;
-    border: 5px  rgb(151, 152, 153) solid;
+    border: 5px  rgb(60, 60, 61) solid;
     border-radius: 90px;
     background-image: url(../imagenes/ño.jfif);
     background-size: cover;
@@ -305,12 +328,12 @@ border-style: outset;
     color: rgb(252, 251, 251);
 }
 
-.carta .atras .pe {
+.carta .atras .pes {
     letter-spacing: 1px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 9px;
+    font-size: 10px;
 }
 
 .carta:hover .frontal {
