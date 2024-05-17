@@ -10,7 +10,9 @@
 /*CUERPO PAGINA*/
 .cuerpo {
 border: 15PX saddlebrown solid;
-border-style: outset;
+border-image: url(../imagenes/borde.png);
+border-image-repeat: repeat ;
+
 }
 
 .cuerpo {
