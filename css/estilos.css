@@ -9,9 +9,8 @@
 
 /*CUERPO PAGINA*/
 .cuerpo {
-    border-image: url(../imagenes/borde.png);
-    border-image-width: 20px ;
-    border-image-repeat: repeat;
+border: 15PX saddlebrown solid;
+border-style: outset;
 }
 
 .cuerpo {
