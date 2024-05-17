@@ -6,18 +6,25 @@
 
 
 }
+
 /*CUERPO PAGINA*/
-.cuerpo
-{
-    border: 15px black solid;
+.cuerpo {
+    border-image: url(../imagenes/borde.png);
+    border-image-width: 20px ;
+    border-image-repeat: repeat;
 }
-.cuerpo
-{
-        font-size: large;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        border-style: outset;
-        background-color: rgb(200, 198, 198);
+
+.cuerpo {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: outset;
+    background-color: rgb(200, 198, 198);
+    background-image: url(../imagenes/pol.jfif);
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: contain;
 }
+
 /*Cabezera de la pagina*/
 header {
     width: 100%;
@@ -41,6 +48,7 @@ header {
     box-shadow: 3px 3px 3px rgb(3, 146, 182);
 
 }
+
 /*Titulo que aparece en la parte de arriba de la pantalla*/
 
 #nombre {
@@ -48,10 +56,10 @@ header {
     font-family: Monkey Pirates;
     top: 50px;
     left: 140px;
-    color: rgb(26, 26, 27);
+    color: rgb(255, 255, 255);
     font-size: x-large;
     border: 5px 5px 5px solid black;
-    box-shadow: 5px 5px 5px rgb(14, 78, 107) ;
+    box-shadow: 5px 5px 5px rgb(14, 78, 107);
 }
 
 /*Barra de navegacion que contiene el menu desplegable y de mas cosas en la cabeza de la pagina*/
@@ -81,7 +89,7 @@ header {
 
 p {
     font-family: unset;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     top: 10%;
     font-size: small;
     width: fit-content;
@@ -92,25 +100,24 @@ p {
 }
 
 /*parrafos de inicio*/
-.pe
-{
+.pe {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     top: 10%;
     font-size: large;
     width: fit-content;
-    text-align: center;  
+    text-align: center;
 }
+
 /*parrafos de las tarjetas*/
-.pes
-{
+.pes {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
     top: 10%;
     font-size: small;
     width: fit-content;
     text-align: center;
- 
+
 }
 
 
@@ -130,21 +137,21 @@ p {
     color: aliceblue;
 }
 
-.ejemplos
-{
+.ejemplos {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-   
+
 }
-.ejemplos img
-{
+
+.ejemplos img {
     width: 160px;
     height: 160px;
-    border-radius:90px ;
+    border-radius: 90px;
 }
+
 .ejemplos img:hover {
     box-shadow: 5px 5px 5px rgb(145, 146, 147);
     border-radius: 0%;
@@ -155,7 +162,7 @@ p {
 
 #titulo {
     text-align: center;
-
+color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1%;
 }
@@ -165,6 +172,7 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
     margin: 1%;
+    color: aliceblue;
 }
 
 .tup {
@@ -183,7 +191,7 @@ p {
     color: aliceblue;
 
 
-   
+
 }
 
 .formu2 {
@@ -192,49 +200,50 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(0, 0, 0);
 }
-.formu2-1
-{
+
+.formu2-1 {
     color: black;
 }
-.boxtext{
-border: 2px rgb(3, 3, 3) solid;
-border-radius: 30px;
-font-size: large;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-margin: 5px;
-border-style: outset;
+
+.boxtext {
+    border: 2px rgb(3, 3, 3) solid;
+    border-radius: 30px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    border-style: outset;
 
 }
+
 .envio {
     margin: 5px;
     padding: auto;
     font-size: large;
     border: 2px black solid;
     border-radius: 30px;
- 
+
 }
 
-.contenedor6
-{
+.contenedor6 {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 
-    
+
 
 }
-.bordef
-{
+
+.bordef {
     margin: 10px;
     text-align: center;
-    border: 5px  rgb(60, 60, 61) solid;
+    border: 5px rgb(60, 60, 61) solid;
     border-radius: 90px;
     background-image: url(../imagenes/ño.jfif);
     background-size: cover;
-    
-   
+
+
 }
 
 /*pie de pagina*/
@@ -257,7 +266,7 @@ border-style: outset;
     position: relative;
     height: 290px;
     margin: 20px;
-  
+
 
 }
 
@@ -282,7 +291,7 @@ border-style: outset;
     width: 230px;
     height: 100%;
     object-fit: cover;
-    
+
 }
 
 .carta .frontal h3 {
@@ -347,57 +356,54 @@ border-style: outset;
 
 
 /*contenedor de las cartas -- tarjetas*/
-.contenedor
-{
+.contenedor {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-   
+
 }
 
 /*Menu despegable*/
-.Barra
-{
+.Barra {
     max-width: 150px;
     color: aliceblue;
-    font-size: medium ;
+    font-size: medium;
 }
-.ena
-{
+
+.ena {
     width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.menu-h
-{
+
+.menu-h {
     top: 35px;
     width: auto;
     list-style: none;
-    display: flex ;
+    display: flex;
     justify-content: space-between;
     font-size: larger;
 }
-.menu-h li a
-{
+
+.menu-h li a {
     text-decoration: none;
     color: aliceblue;
-   
-}
-.menu-v > li > a
-{
-        display: block;
-      padding: 15px;
-      color: rgb(10, 10, 10);
-      text-decoration: none;
-      
+
 }
 
-.menu-v
-{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.menu-v>li>a {
+    display: block;
+    padding: 15px;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+
+}
+
+.menu-v {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
     display: none;
     list-style: none;
@@ -405,54 +411,52 @@ border-style: outset;
     background-color: rgb(190, 188, 188);
     text-align: center;
     color: black;
-  
+
 }
- .menu-h li:hover .menu-v
- {
+
+.menu-h li:hover .menu-v {
     display: block;
- }
- .menu-v li:hover
- {
+}
+
+.menu-v li:hover {
     background-color: black;
- }
- .menu-v li a
- {
+}
+
+.menu-v li a {
     display: block;
     color: rgb(8, 8, 8);
     text-decoration: none;
-    
- }
- .menu-v li a:hover
- {
+
+}
+
+.menu-v li a:hover {
     display: block;
     color: rgb(250, 247, 247);
     text-decoration: none;
-    
- }
+
+}
+
 /*Contenedor de la barra de navegacion*/
- .contenedor2
-{
+.contenedor2 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-   
-   
+
+
 }
 
 /*Contenedor de la barra de navegacion vertical*/
-.contenedor3
-{
+.contenedor3 {
     display: flex;
     flex-direction: row-reverse;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: flex-start;
-   
+
 }
 
 /*Sonidos*/
-.sonido
-{
+.sonido {
     width: 200px;
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.952);
@@ -460,21 +464,21 @@ border-style: outset;
     border-radius: 10px;
     text-align: center;
 }
-.contenedor4
-{
+
+.contenedor4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-}   
-.repo
-{
+}
+
+.repo {
     width: 50px;
     height: 50px;
 
 }
-.Barra2
-{
+
+.Barra2 {
     position: absolute;
     top: 10px;
     text-align: right;
@@ -483,16 +487,15 @@ border-style: outset;
     font-family: Monkey Pirates;
     color: rgb(225, 236, 252);
 }
-.contenedor5
-{
+
+.contenedor5 {
     display: flex;
     flex-direction: row-reverse;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
-.mapa
-{
+.mapa {
     width: 400px;
     height: 400px;
 }
